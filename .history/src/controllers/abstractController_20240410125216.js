@@ -1,0 +1,15 @@
+class AbstractController {
+  constructor(name) {
+		const firstLetter = name.charAt(0).toUpperCase();
+		const remainingLetters = name.slice(1);
+		const capitalizedWord = firstLetter + remainingLetters;
+    this.name = name;
+  }
+
+	['create'](){
+		console.log('teste');
+		return 1+1;
+	}
+}
+
+module.exports = AbstractController;

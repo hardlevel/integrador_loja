@@ -1,0 +1,191 @@
+{
+  "meta": {
+    "limit": 20,
+    "next": "/api/v1/produto_preco?limit=20&offset=20",
+    "offset": 0,
+    "previous": null,
+    "total_count": 91
+  },
+  "objects": [
+    {
+      "cheio": "150.0000",
+      "custo": "30.0000",
+      "id": 152163046,
+      "produto": "/api/v1/produto/255559174",
+      "promocional": "130.0000",
+      "resource_uri": "/api/v1/produto_preco/255559174",
+      "sob_consulta": false
+    },
+    {
+      "cheio": "120.0000",
+      "custo": "40.0000",
+      "id": 147471480,
+      "produto": "/api/v1/produto/243429616",
+      "promocional": "90.0000",
+      "resource_uri": "/api/v1/produto_preco/243429616",
+      "sob_consulta": false
+    },
+    {
+      "cheio": "35.0000",
+      "custo": "15.0000",
+      "id": 147468357,
+      "produto": "/api/v1/produto/243423525",
+      "promocional": "30.0000",
+      "resource_uri": "/api/v1/produto_preco/243423525",
+      "sob_consulta": false
+    },
+    {
+      "cheio": "40.0000",
+      "custo": "10.0000",
+      "id": 147473494,
+      "produto": "/api/v1/produto/243433419",
+      "promocional": "30.0000",
+      "resource_uri": "/api/v1/produto_preco/243433419",
+      "sob_consulta": false
+    },
+    {
+      "cheio": "80.0000",
+      "custo": "20.0000",
+      "id": 147473986,
+      "produto": "/api/v1/produto/243434549",
+      "promocional": "60.0000",
+      "resource_uri": "/api/v1/produto_preco/243434549",
+      "sob_consulta": false
+    },
+    {
+      "cheio": "40.0000",
+      "custo": "10.0000",
+      "id": 147474694,
+      "produto": "/api/v1/produto/243435852",
+      "promocional": "30.0000",
+      "resource_uri": "/api/v1/produto_preco/243435852",
+      "sob_consulta": false
+    },
+    {
+      "cheio": "120.0000",
+      "custo": "35.0000",
+      "id": 147483232,
+      "produto": "/api/v1/produto/243452679",
+      "promocional": "85.0000",
+      "resource_uri": "/api/v1/produto_preco/243452679",
+      "sob_consulta": false
+    },
+    {
+      "cheio": "50.0000",
+      "custo": "10.0000",
+      "id": 147483898,
+      "produto": "/api/v1/produto/243454153",
+      "promocional": "35.0000",
+      "resource_uri": "/api/v1/produto_preco/243454153",
+      "sob_consulta": false
+    },
+    {
+      "cheio": "65.0000",
+      "custo": "25.0000",
+      "id": 147601545,
+      "produto": "/api/v1/produto/243754372",
+      "promocional": "50.0000",
+      "resource_uri": "/api/v1/produto_preco/243754372",
+      "sob_consulta": false
+    },
+    {
+      "cheio": "65.0000",
+      "custo": "30.0000",
+      "id": 147600827,
+      "produto": "/api/v1/produto/243752888",
+      "promocional": "55.0000",
+      "resource_uri": "/api/v1/produto_preco/243752888",
+      "sob_consulta": false
+    },
+    {
+      "cheio": "150.0000",
+      "custo": "30.0000",
+      "id": 152837526,
+      "produto": "/api/v1/produto/257134808",
+      "promocional": "130.0000",
+      "resource_uri": "/api/v1/produto_preco/257134808",
+      "sob_consulta": false
+    },
+    {
+      "cheio": "90.0000",
+      "custo": "30.0000",
+      "id": 147472164,
+      "produto": "/api/v1/produto/243430815",
+      "promocional": "70.0000",
+      "resource_uri": "/api/v1/produto_preco/243430815",
+      "sob_consulta": false
+    },
+    {
+      "cheio": "160.0000",
+      "custo": "50.0000",
+      "id": 147469618,
+      "produto": "/api/v1/produto/243426159",
+      "promocional": "140.0000",
+      "resource_uri": "/api/v1/produto_preco/243426159",
+      "sob_consulta": false
+    },
+    {
+      "cheio": "90.0000",
+      "custo": "30.0000",
+      "id": 147468964,
+      "produto": "/api/v1/produto/243424650",
+      "promocional": "70.0000",
+      "resource_uri": "/api/v1/produto_preco/243424650",
+      "sob_consulta": false
+    },
+    {
+      "cheio": "90.0000",
+      "custo": "30.0000",
+      "id": 147470241,
+      "produto": "/api/v1/produto/243427407",
+      "promocional": "75.0000",
+      "resource_uri": "/api/v1/produto_preco/243427407",
+      "sob_consulta": false
+    },
+    {
+      "cheio": "80.0000",
+      "custo": "25.0000",
+      "id": 147475198,
+      "produto": "/api/v1/produto/243436676",
+      "promocional": "60.0000",
+      "resource_uri": "/api/v1/produto_preco/243436676",
+      "sob_consulta": false
+    },
+    {
+      "cheio": "120.0000",
+      "custo": "30.0000",
+      "id": 147475573,
+      "produto": "/api/v1/produto/243437536",
+      "promocional": "100.0000",
+      "resource_uri": "/api/v1/produto_preco/243437536",
+      "sob_consulta": false
+    },
+    {
+      "cheio": "120.0000",
+      "custo": "35.0000",
+      "id": 147482044,
+      "produto": "/api/v1/produto/243450496",
+      "promocional": "90.0000",
+      "resource_uri": "/api/v1/produto_preco/243450496",
+      "sob_consulta": false
+    },
+    {
+      "cheio": "45.0000",
+      "custo": "12.0000",
+      "id": 147487678,
+      "produto": "/api/v1/produto/243463171",
+      "promocional": "35.0000",
+      "resource_uri": "/api/v1/produto_preco/243463171",
+      "sob_consulta": false
+    },
+    {
+      "cheio": "65.0000",
+      "custo": "20.0000",
+      "id": 147487804,
+      "produto": "/api/v1/produto/243463730",
+      "promocional": "50.0000",
+      "resource_uri": "/api/v1/produto_preco/243463730",
+      "sob_consulta": false
+    }
+  ]
+}

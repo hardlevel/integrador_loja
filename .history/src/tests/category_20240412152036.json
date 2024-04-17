@@ -1,0 +1,61 @@
+{
+  "meta": {
+    "limit": 20,
+    "next": null,
+    "offset": 0,
+    "previous": null,
+    "total_count": 5
+  },
+  "objects": [
+    {
+      "caminho": "2664/2664141/produto/260877207/barco-vela-modelo-artesanal-madeira--6--dryld94ewk.jpg",
+      "id": 149647656,
+      "id_anymarket": null,
+      "mime": null,
+      "posicao": null,
+      "principal": true,
+      "produto": "/api/v1/produto/260877207",
+      "resource_uri": "/api/v1/produto_imagem/149647656"
+    },
+    {
+      "caminho": "2664/2664141/produto/260877207/barco-vela-modelo-artesanal-madeira--2--muywx4u1g7.jpg",
+      "id": 149647684,
+      "id_anymarket": null,
+      "mime": null,
+      "posicao": null,
+      "principal": false,
+      "produto": "/api/v1/produto/260877207",
+      "resource_uri": "/api/v1/produto_imagem/149647684"
+    },
+    {
+      "caminho": "2664/2664141/produto/260877207/barco-vela-modelo-artesanal-madeira--3--3llq9t1phn.jpg",
+      "id": 149647685,
+      "id_anymarket": null,
+      "mime": null,
+      "posicao": null,
+      "principal": false,
+      "produto": "/api/v1/produto/260877207",
+      "resource_uri": "/api/v1/produto_imagem/149647685"
+    },
+    {
+      "caminho": "2664/2664141/produto/260877207/barco-vela-modelo-artesanal-madeira--5--t4b7ltfjp9.jpg",
+      "id": 149647692,
+      "id_anymarket": null,
+      "mime": null,
+      "posicao": null,
+      "principal": false,
+      "produto": "/api/v1/produto/260877207",
+      "resource_uri": "/api/v1/produto_imagem/149647692"
+    },
+    {
+      "caminho": "2664/2664141/produto/260877207/barco-vela-modelo-artesanal-madeira--1--s6rav0eo80.jpg",
+      "id": 149647714,
+      "id_anymarket": null,
+      "mime": null,
+      "posicao": null,
+      "principal": false,
+      "produto": "/api/v1/produto/260877207",
+      "resource_uri": "/api/v1/produto_imagem/149647714"
+    }
+  ]
+}

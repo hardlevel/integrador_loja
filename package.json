@@ -1,0 +1,18 @@
+{
+  "name": "lojaintegrada",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Rafael Tuneca",
+  "license": "ISC",
+  "dependencies": {
+    "@prisma/client": "^5.12.1",
+    "fast-xml-parser": "^4.3.6"
+  },
+  "devDependencies": {
+    "prisma": "^5.12.1"
+  }
+}
