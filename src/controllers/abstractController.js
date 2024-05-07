@@ -1,11 +1,12 @@
 class AbstractController {
-	constructor(name){
+	constructor(name, config = null){
 		this.name = name;
+		this.config = config;
 	}
 }
 
 class ControllerFactory {
-  static createController(type, config) {
+  static createController(type) {
     class DynamicController extends AbstractController {
       constructor() {
         super(type);

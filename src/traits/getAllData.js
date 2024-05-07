@@ -81,12 +81,15 @@ async function main(config){
 			const imageList = await images.findByField('product', `/api/v1/produto/${item.id}`);
 			if (imageList){
 				let imgList = [];
-				for(const [key, value] of Object.entries(imageList)){
-					if (imageList['cover'] == true){
-						item.cover = imageList['path'];
+				for(const img of imageList){
+					if (img.cover) {
+						imgList.push(img.path);
+						item.cover = img.path;
+					} else {
+						imgList.push(img.path);
 					}
-					imgList.push(imageList['path']);
 				}
+				console.log(imgList);
 				item.images = JSON.stringify(imgList);
 			}
 			await products.update(item.id, item);

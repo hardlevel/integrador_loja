@@ -18,30 +18,43 @@ class AbstractModel {
 	}
 
   async findById(id) {
-		console.log(id);
-		let model = this.model;
-    return await prisma[this.model].findUniqueOrThrow({ where: { id: id } });
+		try {
+			return await prisma[this.model].findUniqueOrThrow({ where: { id: id } });
+		} catch (error){
+			console.log(error);
+		}
   }
 
 	async findByField(field, value) {
 		try {
-			const data = await prisma[this.model].findFirstOrThrow({ where: { [field]: value } });
-			return data;
+			return await prisma[this.model].findMany({ where: { [field]: value } });
 		} catch (error) {
 			console.log(error, this.model, field, value);
 		}
   }
 
   async update(id, data) {
-    return await prisma[this.model].update({ where: { id }, data });
+		try {
+			return await prisma[this.model].update({ where: { id }, data });
+		} catch (error){
+			console.log(error);
+		}
   }
 
   async delete(id) {
-    return await prisma[this.model].delete({ where: { id } });
+		try {
+			return await prisma[this.model].delete({ where: { id } });
+		} catch (error){
+			console.log(error);
+		}
   }
 
   async findAll() {
-    return await prisma[this.model].findMany();
+		try {
+			return await prisma[this.model].findMany();
+		} catch (error){
+			console.log(error);
+		}
   }
 }
 

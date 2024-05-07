@@ -59,3 +59,10 @@ model Category {
 	external_id String?
 	related_category String?
 }
+
+model Facebook {
+	id Int @id @default(autoincrement())
+	user_short_token String?
+	long_token String?
+	user_long_token String?
+}

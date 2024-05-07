@@ -8,7 +8,16 @@ const apiPath = path.join(basePath, 'api/');
 const apiUrl = 'https://api.awsli.com.br';
 const chave_api = '';
 const aplicacao = '';
-const facebook = {access_token:"", catalog:""}
+const facebook = {
+	url: "",
+	client_id: "",
+	client_secret: "",
+	user_id: "",
+	page_id: "",
+	user_short_token: "",
+	access_token:"",
+	catalog:""
+}
 const api = path.join(basePath, 'api/api.js');
 const controller = path.join(basePath, 'controllers/abstractController');
 const model = path.join(basePath, 'models/abstractModel');
